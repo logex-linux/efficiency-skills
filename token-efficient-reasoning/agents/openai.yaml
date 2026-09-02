@@ -1,0 +1,7 @@
+interface:
+  display_name: "Token-Efficient Reasoning"
+  short_description: "Reduce reasoning waste without weakening verification"
+  default_prompt: "Use $token-efficient-reasoning to solve this with adaptive depth, compact checks, and no redundant polling."
+
+policy:
+  allow_implicit_invocation: true
