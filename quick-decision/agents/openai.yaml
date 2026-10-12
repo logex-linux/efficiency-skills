@@ -1,0 +1,6 @@
+interface:
+  display_name: "Quick Decision"
+  short_description: "用本机 Nox 4B 快速完成分类、方案选择、是非判断和评分"
+  default_prompt: "使用 $quick-decision，根据已有事实调用本地 Nox 4B，读取概率并给出判断。"
+policy:
+  allow_implicit_invocation: true
